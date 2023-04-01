@@ -11,6 +11,6 @@ type User = [number, string]
 const newUser: User = [112, "lc@lc.dev"]
 
 newUser[1] = "lc@lc.dev"
-newUser.push(true)
+// newUser.push(true)
 
 export {}
