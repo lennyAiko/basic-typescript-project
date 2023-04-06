@@ -25,3 +25,17 @@ const getMoreProducts = (products) => {
     const myIndex = 4;
     return products[myIndex];
 };
+function ownFunction(valOne, valTwo) {
+    return {
+        valOne,
+        valTwo
+    };
+}
+class Sellable {
+    constructor() {
+        this.cart = [];
+    }
+    addToCart(product) {
+        this.cart.push(product);
+    }
+}
